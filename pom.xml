@@ -1,8 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.cetrea</groupId>
 	<artifactId>sonar-tap-parser</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.1-SNAPSHOT</version>
 
 	<dependencies>
 		<dependency>
@@ -56,5 +57,27 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	<groupId>com.cetrea</groupId>
+		<url>https://github.com/dbac2002/sonar-tap-parser</url>
+	<organization>
+		<name>Cetrea</name>
+		<url>http://www.cetrea.com</url>
+	</organization>
+	<issueManagement>
+		<url>https://github.com/dbac2002/sonar-tap-parser/issues</url>
+		<system>GitHub Issues</system>
+	</issueManagement>
+
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<url>https://github.com/dbac2002/sonar-tap-parser</url>
+		<connection>scm:git:git://github.com/dbac2002/sonar-tap-parser.git</connection>
+		<developerConnection>scm:git:git@github.com/dbac2002/sonar-tap-parser.git</developerConnection>
+	</scm>
 </project>
